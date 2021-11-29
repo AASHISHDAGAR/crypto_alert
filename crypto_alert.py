@@ -151,15 +151,15 @@ def print_result(row_num,df_,crypto_name,desc,change,Time_taken):
 ## sending sms
 def send_sms(body):
  
-  account_sid = 'ACeaee946d3f0e5e7d35623938eb3ec9be' 
-  auth_token = 'b6ccd9929a6ca33077cb500cf1187498' 
+  account_sid = '********************************' 
+  auth_token = '**************************' 
   # client = Client(account_sid, auth_token) 
   
   client = Client(account_sid, auth_token)
 
   client.api.account.messages.create(
-      to="+919205852308",
-      from_="+12058462255",
+      to="**********************",
+      from_="",
       body=body)
 
 
