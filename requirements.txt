@@ -1,0 +1,5 @@
+pandas==1.1.5
+pytz==2018.9
+requests==2.23.0
+tradingview_ta==3.2.9
+twilio==7.3.1
